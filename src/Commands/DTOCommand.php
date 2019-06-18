@@ -2,8 +2,6 @@
 
 namespace Signifly\Console\Commands;
 
-use Symfony\Component\Console\Input\InputOption;
-
 class DTOCommand extends DomainGeneratorCommand
 {
     /**

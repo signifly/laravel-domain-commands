@@ -4,6 +4,7 @@ namespace Signifly\Console\Commands;
 
 use Illuminate\Support\Str;
 use Illuminate\Console\GeneratorCommand;
+use Symfony\Component\Console\Input\InputOption;
 
 abstract class DomainGeneratorCommand extends GeneratorCommand
 {
