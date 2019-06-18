@@ -3,6 +3,11 @@
 namespace Signifly\Console;
 
 use Illuminate\Support\ServiceProvider;
+use Signifly\Console\Commands\DTOCommand;
+use Signifly\Console\Commands\EnumCommand;
+use Signifly\Console\Commands\EventCommand;
+use Signifly\Console\Commands\ModelCommand;
+use Signifly\Console\Commands\ActionCommand;
 
 class DomainServiceProvider extends ServiceProvider
 {
@@ -14,6 +19,11 @@ class DomainServiceProvider extends ServiceProvider
             ], 'domain-commands-config');
 
             $this->commands([
+                ActionCommand::class,
+                DTOCommand::class,
+                EnumCommand::class,
+                EventCommand::class,
+                ModelCommand::class,
             ]);
         }
 
