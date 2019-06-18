@@ -32,12 +32,12 @@ class EventCommand extends DomainGeneratorCommand
      */
     protected function getStub()
     {
-        $stubPath = config('domain-commands.stubs.action');
+        $stubPath = config('domain-commands.stubs.event');
 
         if (! is_null($stubPath) && is_string($stubPath)) {
             return $stubPath;
         }
 
-        return __DIR__.'/stubs/action.stub';
+        return __DIR__.'/stubs/event.stub';
     }
 }
