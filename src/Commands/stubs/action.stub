@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+final class DummyClass
+{
+    public function execute()
+    {
+        //
+    }
+}

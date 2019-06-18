@@ -1,0 +1,16 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Foundation\Events\Dispatchable;
+
+final class DummyClass
+{
+    use Dispatchable, SerializesModels;
+
+    public function __construct()
+    {
+        //
+    }
+}

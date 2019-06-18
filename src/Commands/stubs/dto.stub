@@ -1,0 +1,9 @@
+<?php
+
+namespace DummyNamespace;
+
+use Spatie\DataTransferObject\DataTransferObject;
+
+final class DummyClass extends DataTransferObject
+{
+}
