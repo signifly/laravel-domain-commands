@@ -1,4 +1,4 @@
-# Artisan commands to scaffold DDD classes in your Laravel app
+# Laravel Domain Commands
 
 The `signifly/laravel-domain-commands` package adds a handful of useful Artisan commands to your Laravel application. It assumes you are utilizing the Domain Driven Design approach.
 
