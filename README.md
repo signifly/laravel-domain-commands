@@ -69,6 +69,22 @@ Generate a new Eloquent model class using the `domain:model` command:
 php artisan domain:model User -d User
 ```
 
+**Observers**
+
+Generate a new Observer class using the `domain:observer` command:
+
+```bash
+php artisan domain:observer UserObserver -d User
+```
+
+**Rules**
+
+Generate a new Rule class usign the `domain:rule` command:
+
+```bash
+php artian domain:rule CustomEmailRule -d User
+```
+
 ## Installation
 
 You can install the package via composer:
