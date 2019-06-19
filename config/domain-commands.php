@@ -26,6 +26,10 @@ return [
 
         'model' => null,
 
+        'observer' => null,
+
+        'rule' => null,
+
     ],
 
 ];
