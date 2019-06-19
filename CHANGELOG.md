@@ -12,10 +12,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - RuleCommand with signature `domain:rule`
 
 ## [0.0.3]
-- Experimental release!
+### Fixed
+- Incorrect stub name for `EventCommand`
 
 ## [0.0.2]
-- Experimental release!
+### Fixed
+- Missing use statement in `DomainGeneratorCommand`
+
+### Removed
+- Redundant use statement in `DTOCommand`
 
 ## [0.0.1]
 - Experimental release!
