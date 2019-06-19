@@ -35,7 +35,7 @@ Generate a new Action using the `domain:action` command:
 php artisan domain:action CreateUserAction -d User
 ```
 
-*NOTE: You may use the -d|--domain option to specify the given domain for the action. If you do not specify a domain, it will be generated within the default namespace. You may configure that in the config file. *
+*NOTE: You may use the -d|--domain option to specify the given domain for the action. If you do not specify a domain, it will be generated within the default namespace. You may configure that in the config file.*
 
 **Data Transfer Objects**
 
