@@ -28,6 +28,8 @@ return [
 
         'observer' => null,
 
+        'policy' => null,
+
         'rule' => null,
 
     ],

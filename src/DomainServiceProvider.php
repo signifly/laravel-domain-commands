@@ -9,6 +9,7 @@ use Signifly\Console\Commands\RuleCommand;
 use Signifly\Console\Commands\EventCommand;
 use Signifly\Console\Commands\ModelCommand;
 use Signifly\Console\Commands\ActionCommand;
+use Signifly\Console\Commands\PolicyCommand;
 use Signifly\Console\Commands\ObserverCommand;
 
 class DomainServiceProvider extends ServiceProvider
@@ -27,6 +28,7 @@ class DomainServiceProvider extends ServiceProvider
                 EventCommand::class,
                 ModelCommand::class,
                 ObserverCommand::class,
+                PolicyCommand::class,
                 RuleCommand::class,
             ]);
         }
