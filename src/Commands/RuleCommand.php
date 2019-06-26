@@ -83,7 +83,7 @@ class RuleCommand extends RuleMakeCommand
     protected function getOptions()
     {
         return array_merge(parent::getOptions(), [
-            ['domain', 'd', InputOption::VALUE_OPTIONAL, 'Set the domain of the model'],
+            ['domain', 'd', InputOption::VALUE_OPTIONAL, 'Set the domain name'],
         ]);
     }
 }
