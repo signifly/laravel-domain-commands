@@ -77,6 +77,14 @@ Generate a new Observer class using the `domain:observer` command:
 php artisan domain:observer UserObserver -d User
 ```
 
+**Policies**
+
+Generate a new Policy class using the `domain:policy` command:
+
+```bash
+php artisan domain:policy UserPolicy -d User
+```
+
 **Rules**
 
 Generate a new Rule class usign the `domain:rule` command:
