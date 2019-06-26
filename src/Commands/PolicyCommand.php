@@ -3,9 +3,9 @@
 namespace Signifly\Console\Commands;
 
 use Symfony\Component\Console\Input\InputOption;
-use Illuminate\Foundation\Console\RuleMakeCommand;
+use Illuminate\Foundation\Console\PolicyMakeCommand;
 
-class PolicyCommand extends RuleMakeCommand
+class PolicyCommand extends PolicyMakeCommand
 {
     /**
      * The console command name.
