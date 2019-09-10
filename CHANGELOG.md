@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.7]
+### Added
+- Add support for Laravel 6.0
+
 ## [0.0.6]
 ### Fixed
 - The `PolicyCommand` now extends the `PolicyMakeCommand`
@@ -36,7 +40,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1]
 - Experimental release!
 
-[Unreleased]: https://github.com/signifly/laravel-domain-commands/compare/v0.0.6...HEAD
+[Unreleased]: https://github.com/signifly/laravel-domain-commands/compare/v0.0.7...HEAD
+[0.0.7]: https://github.com/signifly/laravel-domain-commands/compare/v0.0.6...v0.0.7
 [0.0.6]: https://github.com/signifly/laravel-domain-commands/compare/v0.0.5...v0.0.6
 [0.0.5]: https://github.com/signifly/laravel-domain-commands/compare/v0.0.4...v0.0.5
 [0.0.4]: https://github.com/signifly/laravel-domain-commands/compare/v0.0.3...v0.0.4
