@@ -35,7 +35,7 @@ abstract class DomainGeneratorCommand extends GeneratorCommand
      */
     protected function getPath($name)
     {
-        return $this->laravel->basePath().'/app/'.str_replace('\\', '/', $name).'.php';
+        return $this->laravel->basePath().'/' . config('domain-commands.app_location') . '/'.str_replace('\\', '/', $name).'.php';
     }
 
     /**
