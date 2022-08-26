@@ -2,6 +2,6 @@
 
 namespace DummyNamespace;
 
-final class DummyClass
+enum DummyClass
 {
 }
