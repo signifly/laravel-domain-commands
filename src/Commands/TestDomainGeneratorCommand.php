@@ -35,7 +35,7 @@ abstract class TestDomainGeneratorCommand extends GeneratorCommand
      */
     protected function getPath($name)
     {
-        return $this->laravel->basePath().str_replace('\\', '/', $name).'.php';
+        return $this->laravel->basePath().'/'.lcfirst(str_replace('\\', '/', $name)).'.php';
     }
 
     /**
