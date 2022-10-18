@@ -2,10 +2,10 @@
 
 namespace DummyNamespace;
 
-final class DummyClass
+class DummyClass
 {
     /** @test */
-    public function test()
+    public function it_()
     {
         //
     }
