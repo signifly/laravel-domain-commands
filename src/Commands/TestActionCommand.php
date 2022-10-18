@@ -9,7 +9,7 @@ class TestActionCommand extends TestDomainGeneratorCommand
      *
      * @var string
      */
-    protected $name = 'domain:test-action';
+    protected $name = 'domain:action-test';
 
     /**
      * The console command description.
