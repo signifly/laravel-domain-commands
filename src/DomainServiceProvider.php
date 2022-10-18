@@ -11,6 +11,7 @@ use Signifly\Console\Commands\ModelCommand;
 use Signifly\Console\Commands\ActionCommand;
 use Signifly\Console\Commands\PolicyCommand;
 use Signifly\Console\Commands\ObserverCommand;
+use Signifly\Console\Commands\TestActionCommand;
 
 class DomainServiceProvider extends ServiceProvider
 {
@@ -30,6 +31,7 @@ class DomainServiceProvider extends ServiceProvider
                 ObserverCommand::class,
                 PolicyCommand::class,
                 RuleCommand::class,
+                TestActionCommand::class,
             ]);
         }
 
