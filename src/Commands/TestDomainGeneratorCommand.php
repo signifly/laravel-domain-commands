@@ -45,7 +45,7 @@ abstract class TestDomainGeneratorCommand extends GeneratorCommand
      */
     protected function rootNamespace()
     {
-        return 'Tests\\Domain\\';
+        return 'Domain\\';
     }
 
     /**
