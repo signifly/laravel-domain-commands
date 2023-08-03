@@ -46,7 +46,7 @@ class RuleCommand extends RuleMakeCommand
      */
     protected function getPath($name)
     {
-        return $this->laravel->basePath().'/app/'.str_replace('\\', '/', $name).'.php';
+        return $this->laravel->basePath().'/'.config('domain-commands.domain_root').'/'.str_replace('\\', '/', $name).'.php';
     }
 
     /**

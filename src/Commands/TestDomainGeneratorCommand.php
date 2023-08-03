@@ -6,7 +6,7 @@ use Illuminate\Support\Str;
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;
 
-abstract class DomainGeneratorCommand extends GeneratorCommand
+abstract class TestDomainGeneratorCommand extends GeneratorCommand
 {
     /**
      * Get the default namespace for the class.
@@ -35,7 +35,7 @@ abstract class DomainGeneratorCommand extends GeneratorCommand
      */
     protected function getPath($name)
     {
-        return $this->laravel->basePath().'/'.config('domain-commands.domain_root').'/'.str_replace('\\', '/', $name).'.php';
+        return $this->laravel->basePath().'/'.lcfirst(str_replace('\\', '/', $name)).'.php';
     }
 
     /**
@@ -45,7 +45,7 @@ abstract class DomainGeneratorCommand extends GeneratorCommand
      */
     protected function rootNamespace()
     {
-        return 'Domain\\';
+        return 'Tests\\Domain\\';
     }
 
     /**

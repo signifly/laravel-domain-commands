@@ -1,0 +1,12 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass
+{
+    /** @test */
+    public function it_()
+    {
+        //
+    }
+}
